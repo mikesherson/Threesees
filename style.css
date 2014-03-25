@@ -1,60 +1,29 @@
 body{
 	margin: 0 auto;
-	width: 1000px;
-	background:#98bf21;
-	font-family: Helvetica;
-}
-
-/* Header */
-header{
-	background-color: #98bf21;
-	height:200px;
-}	
-
-.company_name{
-	position: relative;
-	font-size: 4em;
-	padding: 65px 0px 0px 0px;
-	left:50px;
-}
-
-IMG.displayed {
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-     }
-
-.company_logo{
-	float:left;
-}
-
-/* Header End */
-
+	width: 80%;
+	}
+#contentBox{
+	font-family: helvetica
+	}
 
 /* Nav Css */
-
-nav{
-	background-color: #98bf21;
-	width: 800px;
-	margin: 0 auto;
-	margin-top: absolute;
-}
 
 ul{
 	list-style-type:none;
 	margin:0;
 	padding:0;
 	overflow:hidden;
+	font-family: helvetica
 }
-
+			
 li{
 	float:left;
+	font-family: helvetica
 }
-
-
+		
 a:link,a:visited{
 	display:block;
-	width:160px;
+	width:120px;
 	font-weight:bold;
 	color:#FFFFFF;
 	background-color:#98bf21;
@@ -63,46 +32,13 @@ a:link,a:visited{
 	text-decoration:none;
 	text-transform:uppercase;
 }
-
+		
 a:hover,a:active{
 	background-color:#7A991A;
-}
-#contentBox {
-	width: 901.593px;
-	margin: 0 auto;
-	margin-top: absolute;
-}
-#column1{
-	text-align: center;
-}
-#column2{
-	text-align: center;
-}
-#column3{
-	text-align: center;
 }
 
 /* Nav CSS End */
 
-/* Video Page */
-.video_description_above{
-	font-size: 32px;
-	color: white;
-	padding: 3px 20px;
-	background-color:#98bf21;
-	display:block;
-
-}
-
-.video_description_below{
-	color: white;
-	font-size: 18px;
-	padding: 3px 20px;
-	background-color:#98bf21;
-	display:block;
-}
-
-/* Video Page End */
 
 
 /* Contact Page */
@@ -113,19 +49,7 @@ a:hover,a:active{
 }
 
 .contact_hdr{
-	margin: 0px 15px;
-	padding: 15px 30px 5px;
-	font-size: 1.75em;
-	text-align:center;
-}
-
-.contact_table{
-	border: 2px solid black;
-	border-radius: 20px;
-	padding: 15px;
-	margin: 20px 120px;
-	background: #bbbbbb;
-	box-shadow: 10px 10px 5px #dddddd inset, -10px -10px 5px #dddddd inset; 
+	margin: ;
 }
 
 .comment_txt_area{
@@ -133,107 +57,8 @@ a:hover,a:active{
 	height:300px;
 }
 
-.contact_maps_txt{
-	margin:25px;
-}
-
-iframe{
-	margin: 20px auto 0px;
-}
-
-.hr{
-	height: 1px;
-	background: green;
-	margin: 0px;
-	padding: 0px;
-	width: 40%;
+.contact_table{
+	margin: 20px 120px;
 }
 
 /* Contact Page End */
-
-
-
-
-
-
-/* Video Page */
-
-.video_description_above{
-	font-size: 32px;
-	color: white;
-	padding: 3px 20px;
-	background-color:#98bf21;
-	display:block;
-
-}
-
-.video_description_below{
-	color: white;
-	font-size: 18px;
-	padding: 3px 20px;
-	background-color:#98bf21;
-	display:block;
-}
-
-.video{
-	margin: 0 120px;
-
-}
-
-/* Video Page End */
-
-
-
-
-
-/* Footer */
-
-.footer{
-	color: white;
-	float: right;
-	padding: 0 30px;
-}
-/* Footer End */
-
-
-
-/* Misc */
-
-
-				.aboutus{	
-					padding-top: .5em;
-					width:  inherit;
-					height: inherit;
-					text-indent: 200px;
-					font-size: 4em;
-					font-style: block;
-					background-color: #98bf21;
-						}
-
-				.company{
-					font-size: 1.8em;
-					margin-top:  20px;
-					margin-left: 200px;
-					text-align: justify;
-					font-style: italic;
-				}	
-
-
-				.Happy_Family{
-					padding-top: 2em;
-					padding-bottom: 50px;
-					float: right;
-					width:  610px;
-					height: 300px;
-
-				}
-				.emaillink{
-					clear:both;
-					width: 400px;
-					padding-top: 50px;
-					padding-bottom: 20em;
-					background-color: #98bf21;
-
-				}
-
-
